@@ -10,6 +10,26 @@ The goal of this project is to deploy a "Bucket List Tracker" application on AWS
 
 ---
 
+## 🛠 Services Used
+
+| AWS Service     | Purpose                                                                 |
+|------------------|-------------------------------------------------------------------------|
+| **AWS Amplify**  | Deployment of both frontend and backend (Hosting + CLI/Studio)         |
+| **AWS AppSync**  | Serverless GraphQL API for CRUD operations                             |
+| **GraphQL API**  | Fine-grained API that serves exactly the requested data                |
+| **DynamoDB**     | NoSQL database for storing bucket list items                           |
+| **S3 Bucket**    | Storage for user-uploaded images (e.g., photo proof of achievements)   |
+
+---
+
+## 🗺️ Architectural Diagram
+
+This is the overall system architecture illustrating how each AWS service interacts:
+
+![Architectural Diagram](https://github.com/Yuehan07/bucketlistapp/blob/main/Architectural%20Diagram.png)
+
+---
+
 ## 🧑‍💻 Steps to be Performed
 
 In this project, we go through the following key steps:
@@ -26,32 +46,6 @@ In this project, we go through the following key steps:
 
 ---
 
-## 🛠 Services Used
-
-| AWS Service     | Purpose                                                                 |
-|------------------|-------------------------------------------------------------------------|
-| **AWS Amplify**  | Deployment of both frontend and backend (Hosting + CLI/Studio)         |
-| **AWS AppSync**  | Serverless GraphQL API for CRUD operations                             |
-| **GraphQL API**  | Fine-grained API that serves exactly the requested data                |
-| **DynamoDB**     | NoSQL database for storing bucket list items                           |
-| **S3 Bucket**    | Storage for user-uploaded images (e.g., photo proof of achievements)   |
-
----
-
-## 🧭 Estimated Time & Cost ⚙️
-
-- **Estimated Time**: 1 – 1.5 hours
-- **Cost**: Free under the AWS Free Tier
-
----
-
-## 🗺️ Architectural Diagram
-
-This is the overall system architecture illustrating how each AWS service interacts:
-
-![Architectural Diagram](https://github.com/Yuehan07/bucketlistapp/blob/main/Architectural%20Diagram.png)
-
----
 
 ## ✅ Final Result
 
