@@ -1,17 +1,14 @@
 # 📌 Bucket List Tracker (AWS Amplify + React + AppSync)
-
 This project is the final capstone in the AWS Amplify learning series. It demonstrates how to build and deploy a full-stack **serverless bucket list application** using AWS Amplify, React, GraphQL, and DynamoDB.
 
 ---
 
 ## 🧾 Overview of Project ☁️
-
 The goal of this project is to deploy a "Bucket List Tracker" application on AWS Amplify. This will take longer than the other projects but will teach you how to build a fully functioning, scalable serverless app from frontend to backend.
 
 ---
 
 ## 🛠 Services Used
-
 | AWS Service     | Purpose                                                                 |
 |------------------|-------------------------------------------------------------------------|
 | **AWS Amplify**  | Deployment of both frontend and backend (Hosting + CLI/Studio)         |
@@ -23,7 +20,6 @@ The goal of this project is to deploy a "Bucket List Tracker" application on AWS
 ---
 
 ## 🗺️ Architectural Diagram
-
 This is the overall system architecture illustrating how each AWS service interacts:
 
 ![Architectural Diagram](https://github.com/Yuehan07/bucketlistapp/blob/main/Architectural%20Diagram.png)
@@ -31,7 +27,6 @@ This is the overall system architecture illustrating how each AWS service intera
 ---
 
 ## 🧑‍💻 Steps to be Performed
-
 In this project, we go through the following key steps:
 
 1. **Develop a bucket list tracker** in **React**
@@ -48,7 +43,6 @@ In this project, we go through the following key steps:
 
 
 ## ✅ Final Result
-
 Once completed, your app will look like this:
 
 ![Final Screenshot](https://github.com/Yuehan07/bucketlistapp/blob/main/BucketList%20Screenshot.png)
@@ -62,7 +56,6 @@ The frontend is fully functional, users can:
 ---
 
 ## 📌 Notes
-
 - ✅ Hosted via Amplify Console with GitHub connected
 - ✅ Backend infrastructure managed via Amplify CLI
 - ✅ Responsive React frontend
@@ -72,7 +65,6 @@ The frontend is fully functional, users can:
 ---
 
 ## ✨ Author
-
 Developed by [Yuehan Chen (Olivia)](https://github.com/Yuehan07)
 
 If you like the project, consider starring 🌟 the repo!
@@ -80,5 +72,4 @@ If you like the project, consider starring 🌟 the repo!
 ---
 
 ## 📄 License
-
 This project is licensed under the [MIT License](LICENSE).
