@@ -7,8 +7,8 @@ backend:
         - npm ci
     build:
       commands:
-        - npx ampx generate
-        - npx ampx deploy
+        # $AWS_BRANCH 和 $AMPLIFY_APP_ID
+        - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AMPLIFY_APP_ID
   artifacts:
     baseDirectory: amplify
     files:
