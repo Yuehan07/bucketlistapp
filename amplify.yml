@@ -1,0 +1,15 @@
+version: 1
+backend:
+  phases:
+    preBuild:
+      commands:
+        - cd amplify
+        - npm ci
+    build:
+      commands:
+        - npx ampx generate
+        - npx ampx deploy
+  artifacts:
+    baseDirectory: amplify
+    files:
+      - "**/*"
